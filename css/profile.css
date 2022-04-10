@@ -1,0 +1,160 @@
+.profile_inner {
+  background-color: #000000;
+}
+
+.profile_img {
+  text-align: center;
+}
+
+.profile_img img {
+  height: 630px;
+  width: 1220px;
+}
+
+.section_ttl h2 {
+  font-size: 2em;
+}
+
+.profile_window {
+  background-color: #c4c4c4;
+  width: 80%;
+  height: 700px;
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 10px 20px #000000;
+
+}
+
+.profile_left {
+  width: 50%;
+}
+
+.profile_icon img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-left: 5%;
+  border: 5px solid lightblue;
+}
+
+.profile_right {
+  width: 50%;
+}
+
+.profile_list {
+  text-align: center;
+}
+
+.profile_list h2 {
+  font-size: 2em;
+  margin-bottom: 10%;
+}
+
+.profile_list p {
+  font-size: 1.1em;
+}
+@media screen and (max-width: 1024px) {
+
+  .profile_img {
+    width: 800px;
+    height: 550px;
+    margin: 0 auto;
+  }
+
+  .profile_img img {
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .profile_img {
+    width: 90%;
+  }
+  
+  .profile_window {
+    display: block;
+    height: 1000px;
+  }
+
+  .profile_icon {
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .profile_list h2 {
+    text-align: center;
+  }
+
+  .profile_left {
+    width: 100%;
+  }
+  
+  
+  .profile_right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .profile {
+    margin-top: 10%;
+  }
+
+  .profile_inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .profile_img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .profile_img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .profile_window {
+    display: block;
+    margin-bottom: 20%;
+  }
+
+  .profile_icon {
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .profile_icon img {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+  }
+
+  .profile_list {
+    margin-top: 10%;
+  }
+
+  .profile_list h2 {
+    text-align: center;
+  }
+
+  .profile_list p {
+    font-size: 0.9em;
+    line-height: 2;
+  }
+  
+  .profile_left {
+    width: 100%;
+  }
+
+
+  .profile_right {
+    width: 100%;
+  }
+}
