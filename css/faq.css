@@ -22,12 +22,18 @@
   border: 1px solid #c4c4c4;
   box-shadow: 10px 10px 20px #c4c4c4;
   margin: 0 auto;
+  display: table;
 }
 
+.faq_list {
+  display: table-cell;
+  vertical-align: middle;
+}
 
 .faq_item {
   text-align: center;
-  padding-top: 1%;
+  padding: 3% 0;
+  margin: auto 0;
 }
 
 .faq_q {
@@ -88,6 +94,14 @@
     .section_inner {
       width: 80%;
       height: 90%;
+    }
+
+    .faq_q {
+      font-size: 1em;
+    }
+    
+    .faq_a {
+      font-size: 1.3em;
     }
 
     

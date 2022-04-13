@@ -105,6 +105,10 @@
     height: 100%;
     
   }
+
+  .contact_form {
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 768px) {

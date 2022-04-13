@@ -39,6 +39,8 @@
   display: flex;
   justify-content: center;
   position: relative;
+  width: 100%;
+  height: 1000px;
 }
 
 .photo_img1 {
@@ -46,14 +48,16 @@
   left: -3%;
   top: -10%;
   display: block;
+  margin-left: 10%;
 }
 
 
 .photo_img2 {
   position: absolute;
-  right: -1%;
+  right: 3%;
   top: 50%;
   display: block;
+  margin-right: 5%;
 }
 
 .photo_img p {
@@ -116,11 +120,16 @@
 .contact_link_left {
   width: 610px;
   height: 630px;
+  background-color: #ffffff;
+  display: flex;
 }
 
 .contact_link_left img {
   width: 100%;
-  height: 100%;
+  height: 50%;
+  margin: auto 0;
+  padding-left: 5%;
+
 }
 
 .contact_link_right {
@@ -316,6 +325,7 @@
   .contact_link_left img {
     width: 100%;
     height: 100%;
+    padding-left: 0;
   }
 
   .contact_link_right {

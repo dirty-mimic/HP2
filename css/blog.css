@@ -12,6 +12,10 @@
   width: 1220px;
 }
 
+.section_ttl h2 {
+  font-size: 2em;
+}
+
 .blog_list {
   display: flex;
   justify-content: space-around;
@@ -47,7 +51,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
 
   .blog_img {
     width: 90%;
