@@ -3,12 +3,14 @@
 }
 
 .profile_img {
-  text-align: center;
+  margin: 0 auto;
+  height: 640px;
+  width: 1220px;
 }
 
 .profile_img img {
-  height: 630px;
-  width: 1220px;
+  height: 100%;
+  width: 100%;
 }
 
 .section_ttl h2 {
@@ -48,7 +50,7 @@
 }
 
 .profile_list {
-  text-align: center;
+  float: left;
 }
 
 .profile_list h2 {
@@ -58,7 +60,14 @@
 
 .profile_list p {
   font-size: 1.1em;
+  line-height: 2;
 }
+
+.profile_list p strong {
+  font-size: 1.3em;
+  
+}
+
 @media screen and (max-width: 1024px) {
 
   .profile_img {
@@ -98,9 +107,16 @@
     height: 100%;
   }
 
+  
+
   .profile_list h2 {
     text-align: center;
   }
+
+  .profile_list p strong {
+    text-align: center;
+  }
+
 
   .profile_left {
     width: 100%;
@@ -108,7 +124,8 @@
   
   
   .profile_right {
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
   }
 }
 
@@ -167,7 +184,8 @@
   }
 
 
-  .profile_right {
-    width: 100%;
-  }
+.profile_right {
+  width: 60%;
+  margin: 0 auto;
+}
 }

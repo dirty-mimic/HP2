@@ -3,12 +3,14 @@
 }
 
 .faq_img {
-  text-align: center;
+  margin: 0 auto;
+  width: 1220px;
+  height: 640px
 }
 
 .faq_img img {
-  width: 1220px;
-  height: 630px;
+  width: 100%;
+  height: 100%;
 }
 
 .section_ttl h2 {

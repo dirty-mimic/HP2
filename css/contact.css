@@ -3,12 +3,14 @@
 }
 
 .contact_img {
-  text-align: center;
+  margin: 0 auto;
+  height: 640px;
+  width: 1220px;
 }
 
 .contact_img img {
-  height: 630px;
-  width: 1220px;
+  height: 100%;
+  width: 100%;
 }
 
 .section_ttl h2 {
@@ -41,17 +43,18 @@
   font-size: 1em;
 }
 
-.contact_txtarea {
+.contact_textarea {
   width: 70%;
   height: 15em;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 5px;
+  letter-spacing: 2px;
 }
 
 .contact_form_ttl {
   width: 40%;
   height: 100%;
-  font-size: 1.2em;
+  font-size: 1em;
   position: relative;
 }
 

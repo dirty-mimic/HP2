@@ -4,12 +4,15 @@
 }
 
 .blog_img {
-  text-align: center;
+  margin: 0 auto;
+  height: 640px;
+  width: 1220px;
 }
 
 .blog_img img {
-  height: 630px;
-  width: 1220px;
+  height: 100%;
+  width: 100%;
+
 }
 
 .section_ttl h2 {
@@ -34,6 +37,7 @@
 
 .blog_item p {
   text-align: center;
+  margin-top: 2%;
 }
 
 @media screen and (max-width: 1024px) {

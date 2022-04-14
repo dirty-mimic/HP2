@@ -30,19 +30,17 @@ li {
 
 .header_nav {
   width: 100%;
-  height: 70px;
+  height: 100%;
   background-color: #ffffff;
   font-weight: bold;
   font-size: 2em;
+  padding: 2% 0;
 }
 
 .header_nav ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.header_nav ul li {
 }
 
 .header_nav ul li a:hover {
@@ -123,8 +121,8 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-  .header_nav ul li {
-    font-size: 0.9em;
+  .header_nav {
+    font-size: 1.5em;
   }
 
   .footer_list ul li {
