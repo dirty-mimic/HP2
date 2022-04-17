@@ -85,12 +85,16 @@
     
     .faq_img {
       width: 80%;
-      height: 80%;
+      height: 250px;
     }
     
     .faq_img img {
       width: 100%;
       height: 100%;
+    }
+    
+    .section_ttl h2 {
+      font-size: 1.6em;
     }
 
     .section_inner {
@@ -103,7 +107,7 @@
     }
     
     .faq_a {
-      font-size: 1.3em;
+      font-size: 1.2em;
     }
 
     

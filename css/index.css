@@ -221,6 +221,10 @@
   .photo_brick {
     display: none;
   }
+
+  .message_left_txt p {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -348,5 +352,9 @@
     width: 350px;
     height: 300px;
     margin: 0 auto;
+  }
+
+  .contact_link_right_items h2 {
+    font-size: 1.6em;
   }
 }

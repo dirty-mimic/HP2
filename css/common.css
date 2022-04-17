@@ -61,7 +61,7 @@ header .drawer {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #000000;  
 }
 
 .footer_menu {
@@ -72,6 +72,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 170px;
 }
 
 .footer_img {
@@ -139,6 +140,11 @@ footer {
   .footer_img {
     width: 100px;
     height: 100px;
+  }
+
+  .footer_img img {
+    width: 100%;
+    height: 100%;
   }
 
   .footer_list ul li {

@@ -27,7 +27,7 @@
 .blog_item img {
   height: 250px;
   width: 350px;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0.3s;
 }
 
 .blog_item img:hover {
@@ -51,7 +51,11 @@
   .blog_img img {
     width: 100%;
     height: 100%;
-    
+  }
+
+  .blog_item img {
+    height: 200px;
+    width: 300px;
   }
 }
 
@@ -86,12 +90,21 @@
 
   .blog_img {
     width: 80%;
-    height: 80%;
+    height: 250px;
   }
 
   .blog_img img {
     width: 100%;
     height: 100%;
+  }
+
+  .section_ttl h2 {
+    font-size: 1.6em;
+  }
+
+  .blog_item img {
+    height: 200px;
+    width: 300px;
   }
 
 

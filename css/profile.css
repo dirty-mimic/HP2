@@ -142,17 +142,22 @@
 
   .profile_img {
     width: 80%;
-    height: 80%;
+    height: 250px;
   }
 
   .profile_img img {
     width: 100%;
     height: 100%;
   }
+
+  .section_ttl h2 {
+    font-size: 1.6em;
+  }
   
   .profile_window {
     display: block;
     margin-bottom: 20%;
+    height: 650px;
   }
 
   .profile_icon {
@@ -172,10 +177,11 @@
 
   .profile_list h2 {
     text-align: center;
+    font-size: 1.6em;
   }
 
   .profile_list p {
-    font-size: 0.9em;
+    font-size: 0.85em;
     line-height: 2;
   }
   
@@ -185,7 +191,7 @@
 
 
 .profile_right {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 }

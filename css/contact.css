@@ -118,6 +118,22 @@
   .contact_img {
     width: 90%;
   }
+
+  .contact_form_ttl {
+    font-size: 0.8em;
+  }
+
+  .contact_form_ttl::after {
+    font-size: 0.6em;
+  }
+
+  .contact_form_box2 {
+    font-size: 0.8em;
+  }
+
+  .contact_textarea {
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -132,7 +148,15 @@
     
     .contact_img {
       width: 80%;
-      height: 80%;
+      height: 250px;
+    }
+
+    .section_ttl h2 {
+      font-size: 1.6em;
+    }
+
+    .section_ttl p {
+      font-size: 0.75em;
     }
     
     .contact_img img {
@@ -140,18 +164,42 @@
       height: 100%;
     }
 
-
-
     .contact_form_ttl {
-      font-size: 0.8em;
-      
+      font-size: 0.6em;
     }
+    
+    .contact_form_box2 {
+      font-size: 0.6em;
+      height: 2em;
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+    
+    .contact_textarea {
+      font-size: 0.7em;
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+    }
+
+    .contact_box {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+
 
     .contact_form_ttl::after {
-      font-size: 0.5em;
-      left: 20%;
-      top: 150%;
+      font-size: 0.3em;
+      left: 80%;
+      width: 50%;
+      height: 25px;
+      transform: translate3d(50%, -50%, 0);
     }
 
-   
-}
+    .contact_form_ttl_name::after {
+      transform: translate3d(-60%, -50%, 0);
+    }
+    }
